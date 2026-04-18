@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Saya</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background: #f4f4f4;
+        }
+        header {
+            background: #2c3e50;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+        nav {
+            background: #34495e;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 10px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            padding: 20px;
+        }
+        .card {
+            background: white;
+            padding: 15px;
+            margin-bottom: 15px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        footer {
+            background: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Website Saya</h1>
+    <p>Selamat datang di website resmi</p>
+</header>
+
+<nav>
+    <a href="#">Beranda</a>
+    <a href="#">Tentang</a>
+    <a href="#">Kegiatan</a>
+    <a href="#">Kontak</a>
+</nav>
+
+<div class="container">
+    <div class="card">
+        <h2>Beranda</h2>
+        <p>Ini adalah halaman utama website Anda.</p>
+    </div>
+
+    <div class="card">
+        <h2>Tentang</h2>
+        <p>Isi dengan profil sekolah, organisasi, atau diri Anda.</p>
+    </div>
+
+    <div class="card">
+        <h2>Kegiatan</h2>
+        <p>Tambahkan kegiatan terbaru di sini.</p>
+    </div>
+
+    <div class="card">
+        <h2>Kontak</h2>
+        <p>Email: contoh@email.com</p>
+    </div>
+</div>
+
+<footer>
+    <p>© 2026 Website Saya</p>
+</footer>
+
+</body>
+</html>
